@@ -1,0 +1,13 @@
+body{
+      background-image: url('nação\ da\ eternidade.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: top;
+}
+.logo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
