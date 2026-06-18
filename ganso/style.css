@@ -14,6 +14,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
 
 .site-header {
@@ -23,6 +24,7 @@ body {
   width: 100%;
   padding: 24px 32px;
   z-index: 5;
+  
 }
 
 .header-inner {
@@ -31,16 +33,20 @@ body {
   align-items: center;
 }
 
-.logo img {
+.logo{
   height: 100px;
   max-width: 400px;
   background-image: url("euthymia-removebg-preview.png");
-  background-repeat: no-repeat;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .main-nav {
   display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   gap: 28px;
   flex-wrap: wrap;
 }
